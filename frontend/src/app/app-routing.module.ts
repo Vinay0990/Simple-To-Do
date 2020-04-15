@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DisplayTodoComponent } from './display-todo/display-todo.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'', component:DisplayTodoComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
